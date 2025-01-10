@@ -1,24 +1,23 @@
-# vue1
+autumn's notes:
+FOR LIVE WORK:
+  powershell:
+  $ cd .\vue1\
+  $ npm run serve
 
-## Project setup
-```
-npm install
-```
+UPLOAD WORK 2 GITHUB:
+  git bash in project folder
+  $ git add .
+  $ git commit -m ""
+  $ git push -u origin main
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+HOW 2 DEPLOY:
+  powershell:
+  $ cd .\vue1\
+  $ npm run build
+  close powershell!
 
-### Compiles and minifies for production
-```
-npm run build
-```
+  git bash in project folder:
+  $ git add dist && git commit -m 'adding dist subtree'
+  $ git subtree push --prefix dist origin gh-pages
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  ctrl + f5 site for updates!
