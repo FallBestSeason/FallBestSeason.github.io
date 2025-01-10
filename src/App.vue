@@ -40,12 +40,41 @@ export default {
 </script>
 
 <style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #app {
+  height: 100%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #95fbff;;
   margin-top: 0px;
+  background-color: #5f9ea0;
+  font-size: large;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+.c-bg-pad {
+    padding: 5px;
+    padding-inline: 10px;
+}
+
+.item {
+  flex: 1 1 200px;
+  padding: 10px;
 }
 </style>

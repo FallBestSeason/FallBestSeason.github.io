@@ -1,23 +1,29 @@
 autumn's notes:
-FOR LIVE WORK:
+FOR LIVE WORK (LOCAL):
   powershell:
   $ cd .\vue1\
   $ npm run serve
 
-UPLOAD WORK 2 GITHUB:
+UPLOAD WORK TO GITHUB (DEV BRANCH):
   git bash in project folder
   $ git add .
   $ git commit -m ""
   $ git push -u origin main
 
-HOW 2 DEPLOY:
+DEPLOY CHANGES TO SITE (LIVE BRANCH):
   powershell:
   $ cd .\vue1\
   $ npm run build
   close powershell!
 
   git bash in project folder:
-  $ git add dist && git commit -m 'adding dist subtree'
+  $ git add dist && git commit -m ''
   $ git subtree push --prefix dist origin gh-pages
 
   ctrl + f5 site for updates!
+
+og font color #2c3e50;
+bg blue #5f9ea0;
+
+todo
+spacing on format buttons for resume

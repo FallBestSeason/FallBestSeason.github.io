@@ -1,4 +1,0 @@
-hello! I'm autumn or aut0, a programmer / IT professional based out of southeast MI
-This site contains a blog for me to post personal projects, a contact page, and whatever else I add to it
-I wrote the site from scratch in javascript using vue.js
-If you can read this I am looking for work! 
