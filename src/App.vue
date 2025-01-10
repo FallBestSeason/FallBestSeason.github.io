@@ -58,7 +58,7 @@ html, body {
   font-size: large;
 }
 
-.cen {
+.cCen {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,12 +68,7 @@ html, body {
     gap: 10px;
   }
 
-.c-bg-pad {
-    padding: 5px;
-    padding-inline: 10px;
-}
-
-.item {
+.cItem {
   flex: 1 1 200px;
   padding: 10px;
 }

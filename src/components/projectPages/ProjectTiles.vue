@@ -1,11 +1,11 @@
 <template>
-  <div class="cen">
+  <div class="cCen">
     <div 
       v-for="(card, index) in cards" :key="index" 
       @click="projectTileClick(index)" 
       class="hContainer cTile bg-dark"
     >
-      <img class="cardImage hItem" :src="card.image" alt="thumbnail loading..."/>
+      <img class="cImage hItem" :src="card.image" alt="thumbnail loading..."/>
       <div class="hItem">
         <h3>{{ card.title }}</h3>
         <p>{{ card.description }}</p>
@@ -28,7 +28,7 @@ export default {
         {
           image: "fillerIcon.png",
           title: "More Coming Soon",
-          description: "",
+          description: "check blog for smaller updates",
         }
       ]
     }
@@ -47,7 +47,7 @@ export default {
   padding: 10px;
 }
 
-.cardImage {
+.cImage {
   height: 140px;
   width: 100px;
   object-fit: contain;

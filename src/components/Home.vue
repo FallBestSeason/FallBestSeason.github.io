@@ -1,7 +1,7 @@
 <template>
-  <div class="cen text-light">
+  <div class="cCen text-light">
     <img class="cHeadshot bg-dark cBox" src="/headshot.jpg" alt="headshot loading..."/>
-    <p class="bg-dark cBox cText">
+    <p class="bg-dark cBox cHomeText">
       hello! I'm autumn or aut0, a programmer / IT professional / massive bike nerd based out of southeast MI
       <br><br>
       This site contains a portfolio of projects, a blog, and contact information if you need to reach me
@@ -21,16 +21,15 @@ export default {
 </script>
 
 <style scoped>
-.cBox {
-  padding: 10px;
-}
 .cHeadshot {
-  height: 80%;
+  margin-top: 10px;
+  height: 60vh;
   width: 40%;
   object-fit: cover;
 }
-.cText {
-  text-align: justify;
+.cHomeText {
+  text-align: left;
   width: 50%;
+  margin-top: 10px;
 }
 </style>

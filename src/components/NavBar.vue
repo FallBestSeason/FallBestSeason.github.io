@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-dark text-white p-3 c-navbar">
-    <button class="c-navbar-label" @click="buttonClick(0)">aut0's site</button>
-    <div class="right-section">
+  <div class="bg-dark text-white p-3 cNavBar">
+    <button class="cNavBarLabel" @click="buttonClick(0)">aut0's site</button>
+    <div class="navBtnContainer">
       <button
         v-for="(button, index) in buttons" :key="index"
         :class="{ 'active': index === currentPage }"
         @click="buttonClick(index)"
-        class="c-btn-spacing"
+        class="cNavBtnSpacing"
       >
         {{ button.text }}
       </button>
@@ -50,18 +50,18 @@ export default {
 </script>
 
 <style scoped>
-.c-btn-spacing {
+.cNavBtnSpacing {
   margin-right: 5px
 }
-.c-navbar {
+.cNavBar {
   display: flex;
   justify-content: space-between;
   width: 100%
 }
-.c-navbar-label {
+.cNavBarLabel {
   margin-right: 20px
 }
-.right-section {
+.navBtnContainer {
   display: flex;
   align-items: center
 }
