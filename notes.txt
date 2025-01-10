@@ -24,3 +24,9 @@ DEPLOY CHANGES TO SITE (LIVE BRANCH):
 
 og font color #2c3e50;
 bg blue #5f9ea0;
+
+todo
+home screen vertical / low res mode that moves text box under image
+should be possible with conditional css class and html vue magic
+add more project tiles and blog posts
+back button from each project into projects sceen (will require significant strife)
