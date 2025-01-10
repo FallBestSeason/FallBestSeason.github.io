@@ -24,6 +24,3 @@ DEPLOY CHANGES TO SITE (LIVE BRANCH):
 
 og font color #2c3e50;
 bg blue #5f9ea0;
-
-todo
-spacing on format buttons for resume

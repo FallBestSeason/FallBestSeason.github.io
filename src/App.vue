@@ -77,4 +77,14 @@ html, body {
   flex: 1 1 200px;
   padding: 10px;
 }
+
+.hContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hItem {
+  flex: 1 1 200px;
+}
 </style>
