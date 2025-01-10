@@ -1,11 +1,15 @@
 <template>
   <div class="bg-dark text-white p-3 c-navbar">
-    <button class="c-navbar-label">aut0's site</button>
+    <button class="c-navbar-label" @click="buttonClick(0)">aut0's site</button>
     <div class="right-section">
-      <button @click="buttonClick(0)" class="c-btn-spacing">home</button>
-      <button @click="buttonClick(1)" class="c-btn-spacing">projects</button>
-      <button @click="buttonClick(2)" class="c-btn-spacing">blog</button>
-      <button @click="buttonClick(3)">contact</button>
+      <button
+        v-for="(button, index) in buttons" :key="index"
+        :class="{ 'active': index === currentPage }"
+        @click="buttonClick(index)"
+        class="c-btn-spacing"
+      >
+        {{ button.text }}
+      </button>
     </div>
   </div>
 </template>
@@ -13,8 +17,32 @@
 <script>
 export default {
   name:'NavBar',
+  data() {
+    return {
+      currentPage: 0,
+      buttons: [
+        {
+          id: 0,
+          text: "Home",
+        },
+        {
+          id: 0,
+          text: "Projects",
+        },
+        {
+          id: 0,
+          text: "Blog",
+        },
+        {
+          id: 0,
+          text: "Contact",
+        }
+      ]
+    }
+  }, 
   methods: {
     buttonClick(pageIndex) {
+      this.currentPage = pageIndex
       this.$emit('navButtonClick', pageIndex);
     }
   }
@@ -31,11 +59,13 @@ export default {
   width: 100%
 }
 .c-navbar-label {
-  pointer-events: none;
   margin-right: 20px
 }
 .right-section {
   display: flex;
   align-items: center
+}
+.active {
+  background-color: rgb(177, 177, 185);
 }
 </style>
