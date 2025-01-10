@@ -6,8 +6,8 @@
       <br><br>
       This site contains a portfolio of projects, a blog, and contact information if you need to reach me
       <br><br>
-      I wrote the site from scratch in javascript using vue.js<br>
-      I didn't use any pre-existing templates or icons, so all of the effects are 100% in-house
+      I wrote the site from scratch using vue.js<br>
+      You can find out more about it under the projects tab.
       <br><br>
       If you can read this I am looking for work! Please find my resume attached in the contact tab!<br>
     </p>

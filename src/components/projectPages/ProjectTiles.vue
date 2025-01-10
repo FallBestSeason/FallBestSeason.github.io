@@ -21,9 +21,9 @@ export default {
     return {
       cards: [
         {
-          image: "favicon.ico",
+          image: "open.png",
           title: "This Website",
-          description: "description",
+          description: "tech stack breakdown",
         },
         {
           image: "fillerIcon.png",

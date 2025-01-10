@@ -87,4 +87,8 @@ html, body {
 .hItem {
   flex: 1 1 200px;
 }
+
+.cBox {
+  padding: 10px;
+}
 </style>
