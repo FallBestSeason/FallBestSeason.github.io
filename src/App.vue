@@ -45,7 +45,6 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
 #app {
   height: 100%;
   font-family: 'Courier New', Courier, monospace;
@@ -57,7 +56,6 @@ html, body {
   background-color: #5f9ea0;
   font-size: large;
 }
-
 .cCen {
     display: flex;
     justify-content: center;
@@ -67,23 +65,28 @@ html, body {
     flex-wrap: wrap;
     gap: 10px;
   }
-
 .cItem {
   flex: 1 1 200px;
   padding: 10px;
 }
-
 .hContainer {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 .hItem {
   flex: 1 1 200px;
 }
-
 .cBox {
   padding: 10px;
+}
+.cBackBtn {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.cNavBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
 }
 </style>

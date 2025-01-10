@@ -21,7 +21,7 @@ export default {
     return {
       cards: [
         {
-          image: "open.png",
+          image: "siteLogo.png",
           title: "This Website",
           description: "tech stack breakdown",
         },

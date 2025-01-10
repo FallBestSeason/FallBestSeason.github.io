@@ -23,19 +23,19 @@ export default {
       buttons: [
         {
           id: 0,
-          text: "Home",
+          text: "home",
         },
         {
           id: 0,
-          text: "Projects",
+          text: "projects",
         },
         {
           id: 0,
-          text: "Blog",
+          text: "blog",
         },
         {
           id: 0,
-          text: "Contact",
+          text: "contact",
         }
       ]
     }
@@ -52,11 +52,6 @@ export default {
 <style scoped>
 .cNavBtnSpacing {
   margin-right: 5px
-}
-.cNavBar {
-  display: flex;
-  justify-content: space-between;
-  width: 100%
 }
 .cNavBarLabel {
   margin-right: 20px
