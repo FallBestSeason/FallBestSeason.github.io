@@ -1,5 +1,4 @@
 <template>
-  SITE IS A WORK IN PROGRESS!
   <div class="cen text-light">
     <div v-if="fileContent">
       <pre class="bg-dark c-bg-pad">{{ fileContent }}</pre>
@@ -8,7 +7,6 @@
       <p>Loading file content...</p>
     </div>
   </div>
-  
 </template>
 
 <script>

@@ -24,3 +24,8 @@ DEPLOY CHANGES TO SITE (LIVE BRANCH):
 
 og font color #2c3e50;
 bg blue #5f9ea0;
+
+todo
+go from one manual tile in ProjectTiles.vue to progromatically generating them from an array
+big gamer moves if you can make an array autopopulate with file names from the folder of project pages
+implement switching to different pages in the projects tab, use code from app.vue / nav bar buttons

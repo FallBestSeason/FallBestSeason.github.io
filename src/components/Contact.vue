@@ -1,5 +1,4 @@
 <template>
-  <h1>SITE IS A WORK IN PROGRESS!</h1>
   <div class="cen">
     <div class="text-light bg-dark c-bg-pad">
       <div class="item">Contact me:</div>
