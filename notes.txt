@@ -30,3 +30,7 @@ home screen vertical / low res mode that moves text box under image
 should be possible with conditional css class and html vue magic
 add more project tiles and blog posts
 back button from each project into projects sceen (will require significant strife)
+
+for blog
+probably use markdown to write each post and then use some library for vue that renders markdown
+https://www.npmjs.com/package/vue-markdown-render
