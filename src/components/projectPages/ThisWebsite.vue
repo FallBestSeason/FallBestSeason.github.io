@@ -1,7 +1,7 @@
 <template>
   <div class="cNavBar">
     <div></div>
-    <button class="cBackBtn">back to projects</button>
+    <button class="cBackBtn" @click="backButtonClick">back to projects</button>
   </div>
   <div class="cCen">
     <p class="bg-dark cBox">
@@ -24,6 +24,11 @@
 
 <script>
 export default {
-  name:'ThisWebsitePage'
+  name:'ThisWebsitePage',
+  methods: {
+    backButtonClick() {
+      this.$emit('projectTileClick', Number.MAX_SAFE_INTEGER);
+    }
+  }
 }
 </script>
