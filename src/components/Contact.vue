@@ -22,8 +22,5 @@
 <script>
 export default {
   name:'ContactPage',
-  props: {
-    msg: String
-  }
 }
 </script>

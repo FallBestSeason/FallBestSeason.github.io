@@ -1,5 +1,8 @@
 <template>
-  <component :is="currentProject" @projectTileClick="projectTileClick"/>
+  <component 
+    :is="currentProject" 
+    @projectTileClick="projectTileClick"
+  />
 </template>
 
 <script>

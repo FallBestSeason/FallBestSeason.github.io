@@ -29,8 +29,18 @@ todo
 home screen vertical / low res mode that moves text box under image
 should be possible with conditional css class and html vue magic
 add more project tiles and blog posts
-back button from each project into projects sceen (will require significant strife)
 
-for blog
-probably use markdown to write each post and then use some library for vue that renders markdown
-https://www.npmjs.com/package/vue-markdown-render
+blog functionality
+  probably use markdown to write each post
+  then use some library for vue that renders markdown
+  https://www.npmjs.com/package/vue-markdown-render
+
+currently throwing errors on blog screen
+need to get file in as string, markdown render is working fine
+was having trouble importing file into js as node.js libraries are unavailable
+figure out how to get fs or use a different method
+after that implement router functionality in Blog.vue
+
+reasearch vue router structure and state handling stuff
+the existing solution works fine for something of this size 
+but adhering to a popular model is probably wise in the long run

@@ -1,4 +1,0 @@
-hello! I'm autumn or aut0, a programmer / IT professional / massive bike nerd based out of southeast MI
-This site contains a portfolio of projects, a blog, and contact information if you need to reach me
-I wrote the site from scratch in javascript using vue.js
-If you can read this I am looking for work! Please find my resume attached in the contact tab!

@@ -10,7 +10,7 @@
       you can find out more about it under the projects tab.
       <br><br>
       if you can read this I am looking for work! <br>
-      please check out the projects page and grab my resume from the contact tab!
+      please check out the projects tab and grab my resume from the contact tab!
     </p>
   </div>
 </template>
