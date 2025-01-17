@@ -21,12 +21,12 @@ export default {
     return {
       cards: [
         {
-          image: "siteLogo.png",
+          image: "/projectTileAssets/siteLogo.png",
           title: "This Website",
           description: "tech stack breakdown",
         },
         {
-          image: "fillerIcon.png",
+          image: "/projectTileAssets/fillerIcon.png",
           title: "More Coming Soon",
           description: "check blog for smaller updates",
         }

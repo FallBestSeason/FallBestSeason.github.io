@@ -1,6 +1,6 @@
 <template>
   <div class="cCen text-light">
-    <img class="cHeadshot bg-dark cBox" src="/headshot.jpg" alt="headshot loading..."/>
+    <img class="cHeadshot bg-dark cBox" src="/homeAssets/headshot.jpg" alt="headshot loading..."/>
     <p class="bg-dark cBox cHomeText">
       hello! I'm autumn or aut0, a programmer / IT professional / massive bike nerd based out of southeast MI
       <br><br>
