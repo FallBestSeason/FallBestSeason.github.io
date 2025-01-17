@@ -14,26 +14,10 @@ const markdown = new MarkdownIt();
 
 export default {
   name: 'BlogPage',
-  data() {
-    fileContent: ''
-  },
   computed: {
     renderedMarkdown() {
-      return markdown.render(fileContent);
+      return markdown.render("#TEST");
     }
-  },
-  watch: {
-    markdownFilePath: {
-      async handler(newFilePath) {
-        try {
-          const fileContent = await fs.readFile(newFilePath, "utf8");
-          this.renderedMarkdown = markdown.render(fileContent);
-        } catch (err) {
-          console.error(err);
-        }
-      },
-      immediate: true
-    }
-  }
+	}
 }
 </script>
