@@ -31,10 +31,6 @@ export default {
         },
         {
           id: 0,
-          text: "blog",
-        },
-        {
-          id: 0,
           text: "contact",
         }
       ]

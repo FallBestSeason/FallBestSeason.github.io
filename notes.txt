@@ -1,46 +1,21 @@
 autumn's notes:
 FOR LIVE WORK (LOCAL):
-  powershell:
-  $ cd .\vue1\
-  $ npm run serve
-
-UPLOAD WORK TO GITHUB (DEV BRANCH):
-  git bash in project folder
-  $ git add .
-  $ git commit -m ""
-  $ git push -u origin main
+  use npm cli to host server
+  npm run serve
 
 DEPLOY CHANGES TO SITE (LIVE BRANCH):
-  powershell:
-  $ cd .\vue1\
-  $ npm run build
-  close powershell!
+  npm run build
 
-  git bash in project folder:
-  $ git add dist && git commit -m ''
-  $ git subtree push --prefix dist origin gh-pages
+  git add dist && git commit -m ''
+  git subtree push --prefix dist origin gh-pages
 
-  ctrl + f5 site for updates!
+ADD PROJECT TILE / PAGE
+  use ThisWebsite.vue in /src/components/projectPages as ref 
+  add card image to /public/cardAssets
 
-og font color #2c3e50;
-bg blue #5f9ea0;
+bg blue #5f9ea0
 
 todo
 home screen vertical / low res mode that moves text box under image
 should be possible with conditional css class and html vue magic
-add more project tiles and blog posts
-
-blog functionality
-  probably use markdown to write each post
-  then use some library for vue that renders markdown
-  https://www.npmjs.com/package/vue-markdown-render
-
-currently throwing errors on blog screen
-need to get file in as string, markdown render is working fine
-was having trouble importing file into js as node.js libraries are unavailable
-figure out how to get fs or use a different method
-after that implement router functionality in Blog.vue
-
-reasearch vue router structure and state handling stuff
-the existing solution works fine for something of this size 
-but adhering to a popular model is probably wise in the long run
+add standard card image size to notes, grab from main ws illustrator
