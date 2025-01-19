@@ -4,13 +4,13 @@
     <p class="bg-dark cBox cHomeText">
       hello! I'm autumn or aut0, a programmer / IT professional / massive bike nerd based out of southeast MI
       <br><br>
-      this site contains a portfolio of projects and contact information if you need to reach me
+      This site contains a portfolio of projects and contact information if you need to reach me.
       <br><br>
       I wrote the site from scratch using vue.js<br>
       you can find out more about it under the projects tab.
       <br><br>
-      if you can read this I am looking for work! <br>
-      please check out the projects tab and grab my resume from the contact tab!
+      If you can read this I am looking for work! <br>
+      Please check out the projects tab and grab my resume from the contact tab!
     </p>
   </div>
 </template>

@@ -28,7 +28,7 @@ export default {
         {
           image: "/projectTileAssets/fillerIcon.png",
           title: "More Coming Soon",
-          description: "check blog for smaller updates",
+          description: "",
         }
       ]
     }
